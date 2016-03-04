@@ -7,7 +7,10 @@ import base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 
-
+    /**
+     * 这是一个测试用的Activity
+     * @return
+     */
     @Override
     protected int contentView() {
         return R.layout.animation_layout;
