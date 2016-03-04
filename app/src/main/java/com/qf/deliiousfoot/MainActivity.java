@@ -16,6 +16,9 @@ public class MainActivity extends BaseActivity {
         return R.layout.animation_layout;
     }
 
+    /**
+     * 乙修改
+     */
     @Override
     protected void initViews() {
         ImageView imageView = (ImageView) findViewById(R.id.iv_ani);
