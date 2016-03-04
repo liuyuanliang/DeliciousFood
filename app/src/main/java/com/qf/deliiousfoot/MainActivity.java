@@ -21,6 +21,7 @@ public class MainActivity extends BaseActivity {
      * 乙修改
      * 从头再来吧
      * 那就来呗
+     * 这次行了,只要不放弃一切都有可能的,加油吧
      */
     @Override
     protected void initViews() {
