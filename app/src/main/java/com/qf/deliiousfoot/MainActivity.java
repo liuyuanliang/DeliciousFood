@@ -24,5 +24,8 @@ public class MainActivity extends BaseActivity {
         AnimationDrawable rocketAnimation = (AnimationDrawable) imageView.getBackground(); //获取背景并强转成为帧动画对象
 
         rocketAnimation.start();
+        /**
+         * 甲修改了
+         */
     }
 }
