@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_tj"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_tj"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="推荐"
+            android:drawableTop="@drawable/rb_tj_pic_selector"
+            android:textColor="@color/rb_txt_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:drawableTop="@drawable/rb_found_pic_selector"
+            android:textColor="@color/rb_txt_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_shop"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="商城"
+            android:drawableTop="@drawable/rb_shop_pic_selector"
+            android:textColor="@color/rb_txt_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_topic"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="食话"
+            android:drawableTop="@drawable/rb_topic_pic_selector"
+            android:textColor="@color/rb_txt_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:drawableTop="@drawable/rb_mine_pic_selector"
+            android:textColor="@color/rb_txt_selector"/>
+
+    </RadioGroup>
+</LinearLayout>

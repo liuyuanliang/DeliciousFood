@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">美食节</string>
+    <array name="data">
+        <item>第一条</item>
+        <item>第一条</item>
+        <item>第一条</item>
+        <item>第一条</item>
+        <item>第一条</item>
+        <item>第一条</item>
+    </array>
+</resources>
