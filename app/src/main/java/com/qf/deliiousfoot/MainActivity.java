@@ -10,7 +10,6 @@ public class MainActivity extends BaseActivity {
     /**
      * 这是一个测试用的Activity
      * 我里个去
-     *  跟谁两呢
      * @return
      */
     @Override
